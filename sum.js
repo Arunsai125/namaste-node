@@ -6,6 +6,4 @@ function calculateSum(a, b){
     console.log("The sum of " + a + " and " + b + " is " + sum);
 }
 
-module.exports = {
-    msg : msg,
-    calculateSum: calculateSum};
+module.exports = {msg ,calculateSum};
