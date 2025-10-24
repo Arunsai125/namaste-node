@@ -1,6 +1,7 @@
-const {calculateSum, msg} = require("./sum.js");
+
+const {calculateSum, calculateProduct} = require("./calculator");
 
 var a  = 10;
 var b = 20;
     calculateSum(a,b);
-    console.log(msg);
+    calculateProduct(a,b);
